@@ -1,0 +1,20 @@
+.skill-logo img,
+.skill-row img {
+  height: 40px;
+  margin: 0 16px;
+}
+
+.skill-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.skill-row img {
+    height: 80px; /* increase this for bigger logos */
+    width: auto;  /* maintain aspect ratio */
+    transition: transform 0.3s ease;
+  }
+  

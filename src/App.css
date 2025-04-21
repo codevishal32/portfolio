@@ -1,10 +1,12 @@
 /* Background with noise overlay */
 .app {
-  position: relative;
+  display: flex;
+  flex-direction: column;
   width: 100%;
-  height: 100vh;
+  min-height: 100vh; /* Use min-height instead */
   background: #121212;
-  overflow: hidden;
+  overflow-x: hidden; /* Prevent horizontal scroll but allow vertical scroll */
+  position: relative; /* Needed for the ::before overlay */
 }
 
 /* Noise layer */
