@@ -1,0 +1,51 @@
+.ml-code-box {
+    position: relative;
+    width: 340px;
+    border-radius: 12px;
+    padding: 1rem;
+    font-family: monospace;
+    color: #ccc;
+    overflow: hidden;
+  }
+  
+  .ml-code {
+    white-space: pre-wrap;
+    line-height: 2;
+    z-index: 1;
+    font-size: 16px;
+    position: relative;
+  }
+  
+  .blur-overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 40%;
+    width: 100%;
+    background: linear-gradient(to top, #0a0a0a 0%, transparent 100%);
+    pointer-events: none;
+    
+  }
+  .ml-code{
+    filter: blur(0.8px);
+  }
+  .ml-footer {
+    margin-top: auto;
+  }
+  
+  .ml-title {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  .ml-desc {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: 4px;
+  }
+  
+  .highlight {
+    color: white;
+    font-weight: 600;
+  }
+  

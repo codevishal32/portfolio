@@ -3,8 +3,8 @@ import Header from './components/Header/Header';
 import Home from './components/Pages/Home/Home';
 import Project from './components/Pages/Projects/Projects';
 import connector from './components/Pages/connector';
-import './App.css';
 import Skills from './components/Pages/Skills/Skills';
+import './App.css';
 
 function App() {
 

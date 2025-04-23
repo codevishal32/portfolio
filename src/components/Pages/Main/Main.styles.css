@@ -1,0 +1,28 @@
+.motion-container {
+    min-height: 100vh;
+    background-color: #000;
+  }
+
+  .motion-backgroundImg {
+    min-height: 90vh;
+    background-color: #000;
+    background-image: url('../../../assests/backGroundImg.jpg'); /* Check spelling: should be 'assets' */
+    background-size: cover;                  /* Makes image cover the whole container */
+    background-position: center center;      /* Centers image */
+    background-repeat: no-repeat;            /* Prevents tiling */
+    filter: grayscale(100%);                 /* Full grayscale */
+    -webkit-mask-image: linear-gradient(180deg, rgba(0,0,0,0) 20%, rgba(0,0,0,0.28) 48%, rgba(0,0,0,1) 79%);
+    mask-image: linear-gradient(180deg, rgba(0,0,0,0) 20%, rgba(0,0,0,0.28) 48%, rgba(0,0,0,1) 79%);
+    mask-composite: add;
+    -webkit-mask-composite: destination-in;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 3rem;
+    text-align: center;
+    overflow: hidden;
+    color: #fff;
+  }
+  

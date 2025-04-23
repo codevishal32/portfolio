@@ -4,7 +4,7 @@
   flex-direction: column;
   width: 100%;
   min-height: 100vh; /* Use min-height instead */
-  background: #121212;
+  background: #000;
   overflow-x: hidden; /* Prevent horizontal scroll but allow vertical scroll */
   position: relative; /* Needed for the ::before overlay */
 }
