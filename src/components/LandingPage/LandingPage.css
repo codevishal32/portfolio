@@ -1,0 +1,316 @@
+body {
+    margin: 0;
+    background: #e6e6e6;
+    overflow-x: hidden;
+  }
+  
+  .landing-page {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  /* Top Logo */
+  .logo {
+    position: absolute;
+    
+    top: 20px;
+    left: 20px;
+    border: 2px solid #000;
+    border-radius: 16px;
+    padding: 8px 12px;
+    font-weight: bold;
+    color: #121212;
+    font-size: 60px;
+    font-weight: 700;
+  }
+  .hamburger {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    display: none;
+  }
+  .mobile-menu{
+    display: none;
+  }
+  
+  /* Top Right Work Link */
+  .work-link {
+    font-family: 'PP Neue Machina';
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 34px;
+    font-weight: 500;
+  }
+  
+  /* Center Name and Tags */
+  .center-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .center-content h1 {
+    font-size: 89px;
+    line-height: 86px;
+    font-weight: 400;
+  }
+  
+  /* Floating Tags */
+  .floating-tag {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 20px 0;
+    transform: rotate(-10deg);
+   
+  }
+  
+  .orange {
+    background-color: orange;
+    color: black;
+    font-size: 30px;
+    font-weight: 300;
+  }
+  
+  .blue {
+    background-color: #4a90e2;
+    color: black;
+    font-size: 30px;
+    font-weight: 300;
+    transform: rotate(10deg);
+  }
+  
+  /* Left Sidebar */
+  .left-sidebar {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+  }
+  
+  .honors-box {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    background: black;
+    color: white;
+    padding: 20px;
+    writing-mode: vertical-rl;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .honors-box span {
+    font-size: 16px;
+    font-weight: normal;
+  }
+  .w{
+    transform: rotate(-90deg);
+  }
+  
+  /* Social Icons */
+  .social-icons {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .social-icons a {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Bottom About, Scroll, Contact */
+  .bottom-links {
+    font-family: 'PP Neue Machina';
+    position: absolute;
+    bottom: 20px;
+    width: 98%;
+    display: flex;
+    justify-content:space-between;
+    padding: 0 10px;
+    font-size: 34px;
+    font-weight: 500;
+    
+  }
+  a{
+    text-decoration: none;
+    color: #000;
+  }
+  .scroll-down {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  
+  .scroll-down:hover{
+    color: #f3c56f;
+  }
+  
+  /* --- RESPONSIVE STYLES --- */
+
+/* Tablet (width <= 1024px) */
+@media (max-width: 1024px) {
+  .center-content h1 {
+    font-size: 38px;
+  }
+
+  .floating-tag {
+    font-size: 12px;
+    padding: 8px 16px;
+  }
+
+  .social-icons a {
+    width: 28px;
+    height: 28px;
+    font-size: 18px;
+  }
+
+  .logo {
+    font-size: 20px;
+    padding: 6px 10px;
+  }
+
+  .work-link {
+    font-size: 16px;
+  }
+
+  .bottom-links {
+    font-size: 14px;
+    padding: 0 20px;
+  }
+
+  .honors-box {
+    padding: 15px;
+    font-size: 14px;
+  }
+}
+
+/* Mobile (width <= 768px) */
+@media (max-width: 768px) {
+  .center-content{
+    bottom:5px;
+  }
+  .center-content h1 {
+    
+    font-size: 70px;
+  }
+  .hamburger{
+    display: block;
+  }
+  .floating-tag {
+    font-size: 11px;
+    margin: 10px 0;
+  }
+  .floating-tag {
+    font-size: 20px;
+    padding: 8px 16px;
+  }
+  .logo {
+    font-size: 45px;
+    top: 15px;
+    left: 15px;
+    padding: 5px 8px;
+  }
+
+  .work-link {
+    font-size: 14px;
+    top: 10px;
+    right: 20px;
+    display: none;
+  }
+
+  .honors-box span{
+    font-size: 25px;
+  }
+
+  .social-icons {
+    display: none;
+    top: auto;
+    bottom: 40rem;
+    right: 10px;
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .social-icons a {
+    width: 24px;
+    height: 24px;
+    font-size: 16px;
+  }
+
+  .bottom-links {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    font-size: 13px;
+  }
+  .about-link,.contact-link{
+    display: none;
+  }
+  .scroll-down {
+    order: -1; /* Move SCROLL to top in mobile bottom links */
+  }
+  .mobile-menu {
+    @import url('https://fonts.googleapis.com/css2?family=Bigelow+Rules&family=Grenze+Gotisch:wght@100..900&family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&family=Tagesschrift&display=swap');
+    font-family: "Noto Sans Display", sans-serif;
+    position: absolute;
+    top: 70px;
+    right: -32px;
+    background: #e8e8e8;
+    border-radius: 5px;
+    padding: 40vh 6.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transform: translateX(100%); /* initially hidden */
+    transition: transform 1s ease-in-out;
+  }
+  .mobile-menu.open {
+    transform: translateX(0); /* slide into view */
+  }
+  .mobile-menu-link{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 30px;
+  }
+  .mobile-menu-icons{
+    display: flex;
+    gap: 20px;
+    font-size: 25px;
+  }
+}
+
+
+
+
+
+
+
+

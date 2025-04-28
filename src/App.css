@@ -3,8 +3,8 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  min-height: 100vh; /* Use min-height instead */
-  background: #000;
+  /* Use min-height instead */
+  background: linear-gradient(135deg, #0F172A, #0A0F20);;
   overflow-x: hidden; /* Prevent horizontal scroll but allow vertical scroll */
   position: relative; /* Needed for the ::before overlay */
 }
@@ -14,7 +14,7 @@
   content: "";
   position: absolute;
   inset: 0;
-  background-image: url("./assests//noiseImg.png"); /* Put your noise image in /public folder */
+ /* background-image: url("./assests/bgImg4.webp"); // Put your noise image in /public folder */
   opacity: 0.05;
   pointer-events: none;
   z-index: 1;
