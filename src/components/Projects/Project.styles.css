@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Grenze+Gotisch:wght@100..900&display=swap');
+.projects-section{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.projects{
+    height: 100vh;
+    width: 100%;
+    max-height: 1080px;
+    padding-bottom: 10rem;
+    margin: 120px 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project
+{
+    display: grid;
+    grid-template-columns: 36% 1fr;
+    grid-column-gap: 48px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1190px;
+
+}
+
+._02>:nth-child(1)
+{
+    grid-column: 2;
+}
+._02>:nth-child(2)
+{
+    grid-column: 1;
+}

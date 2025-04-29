@@ -1,0 +1,17 @@
+.preview-model{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    height: 100%;
+    width: 100%;
+}
+.model{
+    top: -4rem;
+    left: 14%;
+    min-width: 200%;
+    aspect-ratio: 22/25;
+    display: grid;
+    position: relative;
+}

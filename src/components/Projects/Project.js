@@ -4,6 +4,7 @@ import { useRef, useState } from 'react';
 import { Environment, OrbitControls } from '@react-three/drei';
 import Laptop from '../Model/Laptop';
 import Phone from '../Model/Phone';
+
 export default function LaptopShowcaseFixed() {
   return (
     <div>

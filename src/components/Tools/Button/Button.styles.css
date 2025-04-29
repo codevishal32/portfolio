@@ -1,0 +1,48 @@
+.button{
+    opacity: 1;
+    transition-property: opacity;
+    transition-duration: 400ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 1.3s;
+}
+.button-link{
+    height: 3.5rem;
+    width: 7rem;
+    padding: 0 24px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    color: #f2f2f2;
+    position: relative;
+    isolation: isolate;
+}
+.btn-text{
+    font-size: 1.125rem;
+    font-weight: 500;
+    opacity: 1;
+    position: relative;
+    line-height: 1;
+    flex: 1 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 400ms cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+.btn-svg
+{
+    margin-left: 10px;
+    
+}
+
+.button-link{
+    content: "";
+    transition-property: opacity, color, background;
+    transition-duration: 400ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    background: #000;
+    position: absolute;
+    right: 0;
+    left: 0;
+    z-index: -1;
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 8px), calc(100% - 8px) 100%, 0 100%);
+}
