@@ -39,7 +39,7 @@ body {
   
   /* Top Right Work Link */
   .work-link {
-    font-family: 'PP Neue Machina';
+    font-family: "Audiowide", sans-serif;
     position: absolute;
     top: 20px;
     right: 30px;
@@ -57,6 +57,7 @@ body {
   }
   
   .center-content h1 {
+    font-family: "Audiowide", sans-serif;
     font-size: 89px;
     line-height: 86px;
     font-weight: 400;
@@ -143,7 +144,7 @@ body {
   
   /* Bottom About, Scroll, Contact */
   .bottom-links {
-    font-family: 'PP Neue Machina';
+    font-family: "Audiowide", sans-serif;
     position: absolute;
     bottom: 20px;
     width: 98%;

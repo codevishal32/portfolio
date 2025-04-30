@@ -4,6 +4,7 @@ import ModelCard from './ProjectCard/ModelCard/ModelCard';
 import './Project.styles.css';
 import Laptop from '../Model/Laptop';
 import Phone from '../Model/Phone';
+import Button from '../Tools/Button/Button';
 
 const projectsData = [
   {
@@ -26,9 +27,9 @@ const projectsData = [
     index: '03',
     title: 'Designing the future of education',
     description: 'Designing a platform to help educators build better online courseware',
-    model: <Laptop />,
-    modelStyles: { top: '-4rem' },
-    titleStyles: {},
+    model: <Laptop/>,
+    modelStyles: { marginTop: '-10rem', aspectRatio: '9/10' },
+    titleStyles: {marginTop:'-10rem'},
   },
 ];
 
