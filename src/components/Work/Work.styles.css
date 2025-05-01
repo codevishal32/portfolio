@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Literata&display=swap');
+
+.work-experience {
+
+
+  padding: 4rem 2rem;
+  font-family: 'Literata', serif;
+  text-align: center;
+}
+
+.section-tag {
+  color: #8c6eff;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  margin-bottom: 0.5rem;
+}
+
+.section-title {
+  font-size: 2.8rem;
+  margin-bottom: 4rem;
+}
+
+.timeline-container {
+
+    padding: 50px 20px;
+    position: relative;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .timeline {
+
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 30px;
+  }
+  
+  .timeline::after {
+    content: '';
+    position: absolute;
+    width: 4px;
+    background: #444;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .timeline-logo {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 2;
+    background: #fff;
+    padding: 6px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .timeline-logo img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    object-fit: contain;
+  }
+  .timeline-item {
+    position: relative;
+    padding-top: 70px; 
+
+    width: 50%;
+  }
+  
+  .timeline-item.left {
+    left: -5%;
+    text-align: right;
+  }
+  
+  .timeline-item.right {
+    left: 55%;
+    text-align: left;
+  }
+  
+  .timeline-content {
+    
+    padding: 20px;
+    border-radius: 12px;
+    position: relative;
+    box-shadow: 0 0 15px rgba(243, 243, 243, 0.3);
+  }
+  
+  .timeline-content h3 {
+    margin-top: 0;
+    font-size: 1.2rem;
+    color: #1b0485;
+  }
+  
+  .timeline-content h4 {
+    margin: 5px 0;
+    font-weight: normal;
+    font-size: 1rem;
+    color: #352929;
+  }
+  
+  .timeline-date {
+    display: block;
+    margin: 10px 0;
+    font-size: 0.9rem;
+    color: #888;
+  }
+  
+  .timeline-content ul {
+    padding-left: 20px;
+  }
+  
+  .timeline-content li {
+    margin-bottom: 8px;
+  }
+  
+  .vertical-line {
+    display: none;
+  }
+  
+  /* Responsive */
+  @media screen and (max-width: 768px) {
+    .timeline::after {
+      left: 10px;
+    }
+  
+    .timeline-item {
+      width: 100%;
+      padding-left: 30px;
+      padding-right: 10px;
+    }
+  
+    .timeline-item.left,
+    .timeline-item.right {
+      left: 0;
+      text-align: left;
+    }
+  }
+  
