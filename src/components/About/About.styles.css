@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Allison&family=Coming+Soon&family=Covered+By+Your+Grace&family=Dancing+Script&family=Itim&family=Niconne&family=Pacifico&family=Pangolin&family=Permanent+Marker&family=Sriracha&family=Yomogi&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Metamorphous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Grenze+Gotisch:wght@100..900&display=swap');
 .about{
 
     width: 100vw;
@@ -27,14 +28,16 @@
     transform: translateZ(0);
 }
 ._heading{
+    font-family: "Audiowide";
     white-space: nowrap;
-    font-size: 30px;
-    margin-bottom: 24px;
+    font-size: 35px;
+    margin-bottom: 15px;
     opacity: 1;
     transition: opacity 800ms ease 400ms;
     color: color-mix(in lab, #000 90%, transparent);;
 }
 ._hidden{
+    font-family: "Audiowide";
     border: 0px;
     clip: rect(0px, 0px, 0px, 0px);
     height: 1px;
@@ -47,91 +50,11 @@
     overflow-wrap: normal;
 }
 
-.value-1 {
-    animation: fontChange1 10s infinite;
-  }
-  .value-2 {
-    animation: fontChange2 10s infinite;
-  }
-  .value-3 {
-    animation: fontChange3 10s infinite;
-  }
-  .value-4 {
-    animation: fontChange4 10s infinite;
-  }
-  .value-5 {
-    animation: fontChange4 10s infinite;
-  }
-  .value-6 {
-    animation: fontChange4 10s infinite;
-  }
-  .value-7 {
-    animation: fontChange4 10s infinite;
-  }
-  .value-8 {
-    animation: fontChange4 10s infinite;
-  }
-  
-  @keyframes fontChange1 {
-    0% { font-family: "Allison"; }
-    25% { font-family: "Pacifico"; }
-    50% { font-family: "Dancing Script"; }
-    75% { font-family: "Itim"; }
-    100% { font-family: "Allison"; }
-  }
-  @keyframes fontChange2 {
-    0% { font-family: "Pangolin"; }
-    25% { font-family: "Covered By Your Grace"; }
-    50% { font-family: "Sriracha"; }
-    75% { font-family: "Permanent Marker"; }
-    100% { font-family: "Pangolin"; }
-  }
-  @keyframes fontChange3 {
-    0% { font-family: "Niconne"; }
-    25% { font-family: "Coming Soon"; }
-    50% { font-family: "Yomogi"; }
-    75% { font-family: "Allison"; }
-    100% { font-family: "Niconne"; }
-  }
-  @keyframes fontChange4 {
-    0% { font-family: "Itim"; }
-    25% { font-family: "Pacifico"; }
-    50% { font-family: "Covered By Your Grace"; }
-    75% { font-family: "Sriracha"; }
-    100% { font-family: "Itim"; }
-  }
-  @keyframes fontChange5 {
-    0% { font-family: "Pangolin"; }
-    25% { font-family: "Covered By Your Grace"; }
-    50% { font-family: "Sriracha"; }
-    75% { font-family: "Permanent Marker"; }
-    100% { font-family: "Pangolin"; }
-  }
-  @keyframes fontChange6 {
-    0% { font-family: "Allison"; }
-    25% { font-family: "Pacifico"; }
-    50% { font-family: "Dancing Script"; }
-    75% { font-family: "Itim"; }
-    100% { font-family: "Allison"; }
-  }
-  @keyframes fontChange7 {
-    0% { font-family: "Niconne"; }
-    25% { font-family: "Coming Soon"; }
-    50% { font-family: "Yomogi"; }
-    75% { font-family: "Allison"; }
-    100% { font-family: "Niconne"; }
-  }
-  @keyframes fontChange8 {
-    0% { font-family: "Itim"; }
-    25% { font-family: "Pacifico"; }
-    50% { font-family: "Covered By Your Grace"; }
-    75% { font-family: "Sriracha"; }
-    100% { font-family: "Itim"; }
-  }
 
   ._description{
-    font-family: "Grenze Gotisch";
-    font-size: 20px;
+    
+    color: #000d00;
+    font-size: 30px;
   }
   .about-line{
     display: flex;
@@ -147,7 +70,8 @@
     top: 10px;
   }
   .about-Img{
-    padding-top: 50px;
+    font-family: "Metamorphous", serif;
+    padding-top: 15rem;
     display: flex;
     flex-direction: column;
     gap: 20px;
