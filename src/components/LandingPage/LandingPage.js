@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './LandingPage.css';
+import { Link } from 'react-router-dom';
 
 const LandingPage = () => {
   const [isMenuOpen,setIsMenuOpen]=useState(true);
@@ -40,7 +41,7 @@ const LandingPage = () => {
 
       {/* Left Sidebar */}
       <div className="left-sidebar">
-       <a href='#'> <div className="honors-box"><span className='w'>W.</span><br /><span>Honors</span></div></a>
+       <Link to={'/Honers'}> <div className="honors-box"><span className='w'>W.</span><br /><span>Honors</span></div></Link>
       </div>
 
       {/* Social Media Links */}
