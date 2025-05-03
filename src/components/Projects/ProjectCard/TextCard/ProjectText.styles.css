@@ -15,7 +15,6 @@
 .indexNumber_1{
     font-size: 1rem;
     font-weight: 500;
-    color: #000;
     opacity: 1;
     transition-property: opacity;
     transition-duration: 400ms;
@@ -29,7 +28,7 @@
     transition-duration: 400ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-delay: 1.3s;
-    color: color-mix(in lab, #000 90%, transparent);;
+    color: color-mix(in lab,  90%, transparent);;
     font-family: "Audiowide", sans-serif;
     font-size: 35px;
     font-weight: 400;
@@ -45,5 +44,5 @@
     font-size: 1.125rem;
     font-weight: inherit;
     line-height: 1.6;
-    color: color-mix(in lab, #000 75%, transparent);
+    color: color-mix(in lab, 75%, transparent);
 }

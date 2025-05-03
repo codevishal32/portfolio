@@ -14,7 +14,7 @@ const techHeadings = [
 export default function TechSkills() {
   return (
     <section className="Tech-skills about">
-      <div className="content">
+      <div className="_content">
         {/* === Left Text Section === */}
         <div className="Tech-skills-text">
           <h1 className="Tech-skills-heading">
@@ -42,7 +42,7 @@ export default function TechSkills() {
         {/* === Right Circle Section === */}
         <div className="tech-skill-right">
           <div className="leftCurve">
-            <img src={leftArrow} alt="left curve line" />
+            <img  className="left" src={leftArrow}  alt="left curve line" />
           </div>
 
           <div className="Tech-skills-circle">
@@ -52,7 +52,7 @@ export default function TechSkills() {
           <div className="rightCurve">
             <img src={rightArrow} alt="right curve line" />
           </div>
-        </div>
+        </div> 
       </div>
     </section>
   );

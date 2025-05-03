@@ -6,7 +6,7 @@
 .line{
     width: 100%;
     height: 100%;
-    background-color: #000;
+    background-color: #fff;
     opacity: 1;
     transition-property: opacity;
     transition-duration: 600ms;
@@ -16,7 +16,7 @@
     transform: scaleX(1);
 }
 .line-bottom{
-    background-color: #000;
+    background-color: #fff;
     position: absolute;
     transition-property: opacity;
     transition-duration: 600ms;

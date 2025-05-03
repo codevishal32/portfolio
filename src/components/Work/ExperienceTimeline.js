@@ -30,7 +30,7 @@ const experiences = [
 
 const ExperienceTimeline = () => {
   return (
-    <section className="work-experience">
+    <section id="work" className="work-experience">
     <h4 className="section-tag">[ WHAT I HAVE DONE SO FAR ]</h4>
     <h1 className="section-title">Work Experience.</h1>
 

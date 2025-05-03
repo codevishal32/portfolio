@@ -4,7 +4,8 @@
   flex-direction: column;
   width: 100%;
   /* Use min-height instead */
-  background: linear-gradient(135deg, #0F172A, #0A0F20);;
+  background: #121212;
+  color: #f2f2f2;
   overflow-x: hidden; /* Prevent horizontal scroll but allow vertical scroll */
   position: relative; /* Needed for the ::before overlay */
 }
@@ -20,4 +21,6 @@
   z-index: 1;
 }
 
-
+html {
+  scroll-behavior: smooth;
+}

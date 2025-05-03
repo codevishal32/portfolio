@@ -34,7 +34,7 @@
     margin-bottom: 15px;
     opacity: 1;
     transition: opacity 800ms ease 400ms;
-    color: color-mix(in lab, #000 90%, transparent);;
+    color: color-mix(in lab,  90%, transparent);;
 }
 ._hidden{
     font-family: "Audiowide";
@@ -52,8 +52,6 @@
 
 
   ._description{
-    
-    color: #000d00;
     font-size: 30px;
   }
   .about-line{

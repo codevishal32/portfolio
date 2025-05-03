@@ -12,15 +12,15 @@ body {
   
   /* Top Logo */
   .logo {
-    position: absolute;
+    position:fixed;
     
     top: 20px;
     left: 20px;
-    border: 2px solid #000;
+    border: 2px solid #fff;
     border-radius: 16px;
     padding: 8px 12px;
     font-weight: bold;
-    color: #121212;
+    color: #f2f2f2;
     font-size: 60px;
     font-weight: 700;
   }
@@ -40,7 +40,7 @@ body {
   /* Top Right Work Link */
   .work-link {
     font-family: "Audiowide", sans-serif;
-    position: absolute;
+    position: fixed;
     top: 20px;
     right: 30px;
     font-size: 34px;
@@ -92,7 +92,7 @@ body {
   
   /* Left Sidebar */
   .left-sidebar {
-    position: absolute;
+    position: fixed;
     top: 50%;
     left: 0;
     transform: translateY(-50%);
@@ -120,7 +120,7 @@ body {
   
   /* Social Icons */
   .social-icons {
-    position: absolute;
+    position: fixed;
     top: 50%;
     right: 20px;
     transform: translateY(-50%);
@@ -130,7 +130,7 @@ body {
   }
   
   .social-icons a {
-    color: black;
+    color: #f2f2f2;
     font-size: 20px;
     text-decoration: none;
     border: 1px solid black;
@@ -145,7 +145,7 @@ body {
   /* Bottom About, Scroll, Contact */
   .bottom-links {
     font-family: "Audiowide", sans-serif;
-    position: absolute;
+    position: fixed;
     bottom: 20px;
     width: 98%;
     display: flex;
@@ -157,7 +157,7 @@ body {
   }
   a{
     text-decoration: none;
-    color: #000;
+    color: #f2f2f2;
   }
   .scroll-down {
     font-size: 16px;
@@ -169,6 +169,7 @@ body {
   
   .scroll-down:hover{
     color: #f3c56f;
+    cursor: pointer;
   }
   
   /* --- RESPONSIVE STYLES --- */

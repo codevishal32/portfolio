@@ -12,7 +12,7 @@ const projectsData = [
     title: 'Designing the future of education',
     description: 'Designing a platform to help educators build better online courseware',
     model: <Laptop />,
-    modelStyles: { top: '-4rem' },
+    modelStyles: { top: '0rem' },
     titleStyles: {},
   },
   {
@@ -20,22 +20,15 @@ const projectsData = [
     title: 'Video game progress tracking',
     description: 'Design and development for a video game tracking app built in React Native',
     model: <Phone />,
-    modelStyles: { top: '-45rem', aspectRatio: '7/10' },
-    titleStyles: { marginRight: '18rem', right: '-15rem' },
-  },
-  {
-    index: '03',
-    title: 'Designing the future of education',
-    description: 'Designing a platform to help educators build better online courseware',
-    model: <Laptop/>,
-    modelStyles: { marginTop: '-10rem', aspectRatio: '9/10' },
-    titleStyles: {marginTop:'-10rem'},
+    modelStyles: { top: '-15rem', aspectRatio: '7/10' },
+    titleStyles: { marginRight: '18rem', right: '-15rem',top:'30rem' },
   },
 ];
 
 const ProjectFrame = () => {
   return (
     <section className="projects-section">
+       
       {projectsData.map((project, i) => (
         <div className="projects" key={project.index}>
           <div className={`project _0${i + 1}`}>

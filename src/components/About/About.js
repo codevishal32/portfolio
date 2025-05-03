@@ -2,10 +2,10 @@ import React from 'react';
 import './About.styles.css';
 import LineDivider from '../Tools/Line/LineDivider';
 import AboutImg from '../../assests/About/vishal_image.jpeg';
-import Button from '../Tools/Button/Button';
+
 const About=()=> {
   return (
-    <section className='about'>
+    <section className='about' id='about'>
         <div className='content'>
             <div className='about-text'>
                 <h3 className='_heading'>

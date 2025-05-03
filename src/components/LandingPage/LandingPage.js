@@ -16,7 +16,7 @@ const LandingPage = () => {
       
       <div className={`mobile-menu ${isMenuOpen ? 'open' : ''}`}>
         <div className='mobile-menu-link'>
-          <a href='#' ><div className=" mobile-nav">ABOUT</div></a>
+          <a href='.about' ><div className=" mobile-nav">ABOUT</div></a>
           <a href='#'><div className=" mobile-nav">WORK</div></a>
           <a href='#' ><div className=" mobile-nav">CONTACT</div> </a>
         </div>
@@ -29,7 +29,7 @@ const LandingPage = () => {
       </div>
       
       {/* Top-right WORK Link */}
-      <a href='#'><div className="work-link">WORK</div></a>
+      <a href='#work'><div className="work-link">WORK</div></a>
 
       {/* Center Content */}
       <div className="center-content">
@@ -56,11 +56,11 @@ const LandingPage = () => {
       {/* Bottom */}
       <div className="bottom-links">
       
-        <a href='#' ><div className=" link-bottom about-link">ABOUT</div></a>
+        <a href='#about' ><div className=" link-bottom about-link">ABOUT</div></a>
     
-        <a href='#' ><div className=" link-bottom scroll-down">SCROLL DOWN ↓</div> </a>
+        <a onClick={() => window.scrollBy({ top: window.innerHeight, behavior: 'smooth' })} ><div className=" link-bottom scroll-down">SCROLL DOWN ↓</div> </a>
        
-        <a href='#' ><div className=" link-bottom contact-link">CONTACT</div> </a>
+        <a href='#contact' ><div className=" link-bottom contact-link">CONTACT</div> </a>
     
       </div>
       
