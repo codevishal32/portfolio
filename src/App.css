@@ -4,8 +4,8 @@
   flex-direction: column;
   width: 100%;
   /* Use min-height instead */
-  background: #121212;
-  color: #f2f2f2;
+  background: #f2f2f2;
+  color: #000;
   overflow-x: hidden; /* Prevent horizontal scroll but allow vertical scroll */
   position: relative; /* Needed for the ::before overlay */
 }

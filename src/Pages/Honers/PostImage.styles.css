@@ -1,0 +1,52 @@
+.articleCard {
+    position: sticky;
+    width: 100%;
+    max-width: 1020px;
+    height: 90vh;
+    margin: 0 auto;
+    border-radius: 16px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    color: #000;
+    font-family: 'Segoe UI', sans-serif;
+    padding: 24px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  }
+  
+  .featuredTag {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    background: white;
+    color: black;
+    padding: 4px 10px;
+    font-weight: bold;
+    font-size: 13px;
+    border-radius: 4px;
+    z-index: 3;
+  }
+  
+  .overlay {
+    position: absolute;
+    inset: 0;
+    backdrop-filter: blur(0.5px);
+    background: rgba(255, 255, 255, 0.15);
+    z-index: 1;
+  }
+  
+  .postImgText {
+    position: relative;
+    padding-top: 50% ;
+    z-index: 2;
+    max-width: 90%;
+    color: #f2f2f2;
+    text-align: left;
+  }
+  
+  
+
+  

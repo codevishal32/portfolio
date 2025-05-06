@@ -9,14 +9,13 @@ function App() {
 
   return (
   <div className="app">
-    <LandingPage />
+
 
         <Routes>
           <Route  path='/' element={<HomePage />}/>
           <Route path='/Honers' element={<Honers/>}/>
         </Routes>
 
-    <Footer />
   </div>
 
   );
